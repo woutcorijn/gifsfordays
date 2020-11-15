@@ -1,4 +1,4 @@
 # gifsfordays
-a site that displays a random gif.
+A site that displays a random gif.
 <br>
 https://gifsfordays.tk/
