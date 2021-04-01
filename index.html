@@ -19,17 +19,19 @@
 			 </head>
 			 <body>
 			    <div id="imagediv">
-			    <img id="images" src="images/logosmall.png" onClick="window.location.reload()">
-				<p class="footertext">click on the GIF for a new GIF.</p>
-				<p class="footer">Site developed by<br><br><a href="http://www.woutcorijn.cf/" class="link">Wout Corijn</a></p>
+			    <img id="images" src="images/logosmall.png" onclick="refresh()">
+				<p class="footer">Site developed by<br><br><a href="http://www.woutcorijn.com/" class="link">Wout Corijn</a></p>
 				</div>
-				<script> 
+				<script>
+        refresh();
+        function refresh() {
 				 var gif = "images/gif";
 				 var random = Math.floor((Math.random() * 80) + 1);
 				 var type = ".gif"
 				 var image = gif + random + type;
-				 
-				 document.getElementById("images").src = image;
+
+        document.getElementById("images").src = image;
+        }
 				 </script>
 
 			 </body>

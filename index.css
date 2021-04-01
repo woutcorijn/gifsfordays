@@ -23,12 +23,6 @@ font-family: 'Press Start 2P', cursive;
 font-size:9px;
 }
 
-.footertext {
-margin-top:20px;
-color:black;
-font-family: 'Press Start 2P', cursive;
-font-size:12px;
-}
 .mobile {
 	display:none;
 }
@@ -54,10 +48,10 @@ color: #fff;
 ::-webkit-selection {
 background-color:#1e314f;
 color: #fff;
-} 
+}
 
-	@media only screen 
-and (min-device-width : 320px) 
+	@media only screen
+and (min-device-width : 320px)
 and (max-device-width : 736px)
 {
 	.mobile {
@@ -77,5 +71,3 @@ margin-top:20px;
 font-size:7px;
 }
 }
-
-
